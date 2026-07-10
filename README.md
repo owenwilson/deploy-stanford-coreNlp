@@ -19,11 +19,11 @@ cd CoreNLP
 ```
 
 ```sh
-docker build -t core-nlp:4.5.6 .
+docker build -t core-nlp:4.5.10 .
 ```
 
 ## run coreNLP
 
 ```sh
-docker run --name stanford-corenlp --rm -p 9000:9000 core-nlp:4.5.6 -d
+docker run --name stanford-corenlp --rm -p 9000:9000 core-nlp:4.5.10 -d
 ```
